@@ -1,10 +1,14 @@
 # E-Commerce Sales Analysis (SQL + Tableau)
 
-This project analyzes e-commerce sales to identify long-term revenue trends and top-performing products. SQL was used to query and aggregate transactional data and tableau was used to build a dashboard to communicate key business insights. The goal of this project was to demonstrate tableau and SQL skills.
+This project analyzes multi-year e-commerce transaction data to understand long-term revenue growth and revenue concentration across products. Using SQL for aggregation and transformation, I identified trends in monthly revenue and quantified the extent to which a small number of products drive total sales. A Tableau dashboard was built to communicate insights relevant to inventory planning and marketing strategy.
 
 ## Project Overview
 
-In this project I created a number of csv files that could be analyzed and used two of them to create a basic dashboard. I represented the top performing products with their total revenue as well as total revenue over the course of 7 years.
+In this project I designed SQL queries to aggregate transactional data into analysis ready data sets. these include:
+- Overall top products
+- Top products by month
+- Monthly revenue
+- Monthly Profit
 
 ## Tools and Techniques
 
@@ -23,15 +27,15 @@ In this project I created a number of csv files that could be analyzed and used 
 
 ## Key Insights
 - Monthly revenue shows strong long term growth across the analyzed period
-- revenue is highly concetrated among a small number of top performing prodducts
+- Revenue is highly concentrated among a small number of top performing products
 - Limiting products to top performers may increase efficiency and profit, although it may decrease total revenue
 
 ## Business Recommendations
 - Focus marketing and inventory planning on top products because they drive most of the revenue
-- conduct analysis on top products to understand what drives tehir preformance
+- Conduct analysis on top products to understand what drives their performance
 
 ## Tableau Dashboard
-the final dashboard includes:
+The final dashboard includes:
 - Monthly revenue trend over multiple years
 - Top 15 products by total revenue
 - https://public.tableau.com/views/E-CommerceSales0verview/E-commerceSalesOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
